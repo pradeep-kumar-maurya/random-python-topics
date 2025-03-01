@@ -1,0 +1,13 @@
+fastapi
+sqlalchemy
+uvicorn
+pydantic
+
+# hashing
+passlib
+bcrypt
+
+# generate JWT token on-demand
+python-jose
+
+python-multipart
