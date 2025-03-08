@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+
+# hashing
+passlib
+bcrypt
+
+# foe JWT token
+python-jose
