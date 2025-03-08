@@ -9,7 +9,7 @@ app = FastAPI(
     description = 'This is just for testing'
 )
 
-origins = ['https://www.google.com', 'https://www.samsung.com']
+origins = ['*']
 
 app.add_middleware(
     CORSMiddleware,
