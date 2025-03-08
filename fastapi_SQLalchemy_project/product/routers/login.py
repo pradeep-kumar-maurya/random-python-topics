@@ -14,7 +14,7 @@ from product.schemas import Login, TokenData
 from passlib.context import CryptContext
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-SECRET_KEY = "e6fbfa99c7aa0023ca2146f0c90a72a0bebd157327c12557f7ba5fdc52fc592d"
+SECRET_KEY = "e6fbfa99c7aa0023ca2146f0c90a72a0bebd157327c12557f7ba5fdc52fc592d"  # openssl rand -hex 32 (git bash command)
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 20
 

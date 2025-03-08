@@ -10,12 +10,12 @@ app = FastAPI(
     terms_of_service="https://www.google.com",
     contact={
         "Developer name": "Pradeep",
-        "Website": "https://wwww.google.com",
+        "Website": "https://www.google.com",
         "email": "pradeep@gmail.com"
     },
     license_info={
         "name": "LICENSE",
-        "url": "https://wwww.google.com"
+        "url": "https://www.google.com"
     }
 )
 

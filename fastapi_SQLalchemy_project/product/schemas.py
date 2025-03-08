@@ -14,7 +14,7 @@ class SellerResponseModel(BaseModel):
     username: str
     email: str
 
-    class Confid:
+    class Config:
         orm_mode = True
 
 

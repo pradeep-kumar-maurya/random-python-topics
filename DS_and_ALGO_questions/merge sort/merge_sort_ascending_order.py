@@ -24,7 +24,11 @@ def merge(arr, start, mid, end):  # O(N)
 
 
 def merger_sort(arr, start, end):
-    if start < end:
+    # if start == end:  # base case 1
+    #     return
+    # if start >= end:  # base case 2
+    #     return
+    if start < end:  # base case 3
         mid = (start + end) // 2
         merger_sort(arr, start, mid)  # left half
         merger_sort(arr, mid+1, end)  # right half
@@ -32,5 +36,6 @@ def merger_sort(arr, start, end):
 
 
 arr = [4, 3, 1, 2]
+arr = [1, 2, 3, 4, 5]
 merger_sort(arr, 0, len(arr) - 1)
 print(arr)
