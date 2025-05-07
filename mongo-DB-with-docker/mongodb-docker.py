@@ -35,7 +35,7 @@ print("DBs in MongoDB ->", databases)
 one_doc = collection.find_one({'name': 'Pradeep'})
 print("individual document ->", one_doc)
 
-# # find all documents
+# find all documents
 all_docs = collection.find({})
 print("All documents")
 for doc in all_docs:
